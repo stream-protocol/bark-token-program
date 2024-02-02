@@ -1,0 +1,38 @@
+{
+  "name": "token-generator",
+  "version": "0.0.1",
+  "description": "Solana 2022-Token Program Tools",
+  "keywords": [],
+  "author": "Bark Foundation",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bark-community/bark-token-program"
+  },
+  "bugs": {
+    "url": "https://github.com/bark-community/bark-token-program/issues"
+  },
+  "scripts": {
+    "start": "node main.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev main.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.0",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-web3js-adapters": "^0.9.1",
+    "@solana/spl-token": "^0.4.0",
+    "@solana/web3.js": "^1.89.1",
+    "bs58": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "ts-node-dev": "^1.1.6",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}

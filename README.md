@@ -1,4 +1,7 @@
-# Bark Token Program
+
+![Bark Token Program Logo](src/assets/bark.png) 
+
+# Token Generator Tools
 
 ## Overview
 
@@ -58,9 +61,22 @@ Make sure you have the following tools installed:
    yarn start
    ```
 
+## ToDo List
+
+- [ ] Implement additional features (Specify features to be added).
+- [ ] Implement Transfer hook + interest token features.
+- [ ] Enhance security measures.
+- [ ] Add testing coverage.
+- [ ] Improve error handling and logging.
+- [ ] Update documentation for contributors.
+- [ ] Optimize lamports "gas" fees for transactions.
+- [ ] Solana 2022-Token Generator.
+- [ ] Documentation + System Architecture.
+- [ ] dApp + UI/UX.
+- [ ] Factory Program.
+- [ ] Create and add a comprehensive guide for users.
+- [ ] Enhance user feedback mechanisms.
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Please customize the README according to your specific token program features, use cases, and any additional details you'd like to provide to users.# bark-token-program
+MIT License - see the [LICENSE](LICENSE) file for details.
